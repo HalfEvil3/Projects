@@ -1,0 +1,77 @@
+html {
+	background-color:#121d21;
+}
+header, footer {
+	color: white;
+	background-color: #3D6271;
+	margin: 0em 4em 0.5em 4em;
+
+}
+article {
+	background-color:white;
+	margin: 0em 4em 0.5em 4em;
+	padding: 0.5em;
+}
+
+h1{
+	font-family:sans-serif;
+	font-size: 1.5em;
+	padding: 0.2em 0.5em;
+}
+h2{
+	font-family:sans-serif;
+	font-size: 1em;
+	padding: 0.2em 0.5em;
+}
+nav {
+	background-color: #d8dfe2
+}
+ul{
+	list-style-type: none;
+}
+li  {
+	display: inline;	
+}
+li a {
+    text-decoration: none;
+	padding: 1em 0.5em;
+	font-family: sans-serif;
+	font-size: 1em;
+	font-weight: 700;
+}
+section h3 {
+	font-family:sans-serif;
+	border-bottom: solid 1px black
+}
+p {
+	font-family:bembo;
+}
+.people {
+	font: italic 500 0.9em san-serif;
+	color: grey;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+#centralpark{
+	border: solid 1px black;
+	padding: 0.2em;
+}
+#socialbar {
+	background-image: url(images/gray-gradient.gif);
+	background-repeat: repeat;
+	padding: 0.4em;
+	border: solid 1px grey;
+}
+section div img{
+	padding:0.5em;
+}
+footer p{
+	padding:0.5em;
+}
+
+a:link{
+	color:#77919b;
+}
+a:visted {
+	color:purple;
+}

@@ -1,0 +1,63 @@
+html{
+    background-image: url(images/art-background4.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+	font-family:arial;
+}
+body{
+	margin-left:5em;
+	margin-right: 5em;
+}
+@font-face{
+	font-family:"Six Caps";
+	src : local("Six Caps"), local("SixCaps"),
+		url(https://www.fontsquirrel.com/fonts/six-caps)
+		format('tff');
+
+}
+header{
+	padding: 0.5em;
+	font-size:3em;
+	letter-spacing: 2px;
+	background: url(images/background-pattern.png) no-repeat;
+	font-family: Six Caps
+}
+header h2 {
+	font-family: arial;
+	font-size: 15px;
+}
+article{
+	text-align: left;
+	margin-top:5em;
+	font-weight: bold;
+}
+article h2{
+	padding: 0.5em 0.5em 0.2em 0.5em;
+	margin-right:50%;
+	opacity: 0.5;
+	background-color:lightgray;
+}
+article p{
+
+	padding-top:1em;
+	padding-bottom:5em;
+	padding-left:0.5em;
+	margin-right:50%;
+	opacity: 0.6;
+	background-color: #ffe7cc
+
+}
+#timeline {
+	border: solid 1em #ffe7cc;
+	padding-bottom:1em;
+	padding-left:0.5em;
+	color:white;
+	background-color:#2e2e05;
+	opacity: 0.6;
+}
+footer{
+	margin-right:50%;
+	background: white url(images/email.png) no-repeat 5px 11px;
+	padding: 0.5em 0.5em 0.2em 1.5em;
+	font-weight: normal;	
+}
